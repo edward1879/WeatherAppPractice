@@ -18,8 +18,5 @@ public class MainActivity extends AppCompatActivity {
         /** bind the ListView in the layout with the listView object here by findViewById, then cast the view to a ListView */
         listView = (ListView) findViewById(R.id.lv_main);
 
-
-
-
     }
 }

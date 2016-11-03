@@ -7,12 +7,13 @@ import java.util.ArrayList;
  */
 
 public class Weather {
-    /** declare the  */
+    /** declare the instance variable */
     private String date;
     private String averageTemp;
     private String weatherDescription;
     private int weatherIcon;
 
+    /** a constructor  */
     public Weather() {
     }
 
@@ -29,6 +30,7 @@ public class Weather {
         this.weatherIcon = weatherIcon;
     }
 
+    /** use to generate a list of sample weather */
     public static ArrayList<Weather> sampleWeatherArrayList(int numOfDays){
         ArrayList<Weather> weathers = new ArrayList<>();
         for (int i = 0; i<numOfDays;i++){
@@ -43,6 +45,8 @@ public class Weather {
         return weathers;
     }
 
+    /**  getters : a method for other classes to access the instance variables */
+    /** setters : a method for other classes to change the value of the instance variables */
     public String getDate() {
         return date;
     }
