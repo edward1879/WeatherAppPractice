@@ -37,8 +37,9 @@ public class Weather {
             String date = i + "- Nov";
             String averageTemp = i + 25 + "";
             String weatherDescription = "Sunny";
+            int weatherIconId = R.drawable.sunny;
 
-            Weather weather = new Weather(date,averageTemp,weatherDescription);
+            Weather weather = new Weather(date,averageTemp,weatherDescription,weatherIconId);
             weathers.add(weather);
         }
 
